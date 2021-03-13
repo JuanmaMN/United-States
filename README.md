@@ -40,10 +40,13 @@ Code is available [here](https://github.com/JuanmaMN/US-elections/blob/main/US%2
 
 <br>
 
-<img width="903" alt="US election and senate map" class="center" src="https://user-images.githubusercontent.com/37122520/111034718-d8677700-840e-11eb-9df7-e5d5df0c0bff.png">
-
+<img width="919" alt="US election and senate map (2)" src="https://user-images.githubusercontent.com/37122520/111035012-229d2800-8410-11eb-9f67-04c467a58b06.png">
 
 <br>
+
+
+
+
 
 
 ### US Senate election 2020
