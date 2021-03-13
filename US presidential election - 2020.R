@@ -29,7 +29,7 @@ showtext_auto()
 
 # Graph -------------------------------------------------------------------
 
-first_map<-plot_usmap(data = data, values = "party_simplified",labels = TRUE) + 
+first_map<-plot_usmap("data_source", values = "party_simplified",labels = TRUE) + 
   scale_fill_manual(values = map_fills) +
   labs(fill = "party_simplified") +
   labs(x = "",y = "") +
@@ -69,9 +69,9 @@ first_map<-plot_usmap(data = data, values = "party_simplified",labels = TRUE) +
 
 second_graph<- data%>%ggplot() +
   
-  geom_text(aes(x = x_number, y = counts_number, label = label,color = party_simplified), hjust = 0, fontface = "italic",  size = 4, 
+  geom_text(aes(x = x, y = y, label = label,color = party_simplified), hjust = 0, fontface = "italic",  size = 4, 
             family = font_labels) +
-  geom_point(aes(x = x_number-0.15, y = counts_number, colour= party_simplified), hjust = -2, size = 3.5) + 
+  geom_point(aes(x = x-0.15, y = y, colour= party_simplified), hjust = -2, size = 3.5) + 
   scale_x_continuous(limits = c(-0.4,15)) +
   scale_colour_manual(values = c( "Democrat" = "#1a6aff",
                                   "Republican" = "#ff4a43")) +
@@ -80,9 +80,7 @@ second_graph<- data%>%ggplot() +
   labs(x = "",y = "",
        title = "",
        subtitle = "",
-       caption = "",
-       x = "",
-       y = "") +
+       caption = "") +
   theme(      legend.position = "bottom",
               legend.title=element_blank(),
               axis.text.x = element_blank(),
