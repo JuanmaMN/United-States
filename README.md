@@ -63,5 +63,3 @@ Code is available [here](https://github.com/JuanmaMN/US-elections/blob/main/US%2
 <hr>
 
 
-
-<hr>
