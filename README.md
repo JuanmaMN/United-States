@@ -1,4 +1,4 @@
-# US-elections
+# US elections
 
 
 This is a personal project where I will be publishing my analyses on US elections done on R studio and Tableau.
