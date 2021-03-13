@@ -56,7 +56,7 @@ Code is available [here](https://github.com/JuanmaMN/US-elections/blob/main/US%2
 
 <br>
 <p align="center">
-<img width="807" alt="US election senate map" src="https://user-images.githubusercontent.com/37122520/111034689-ba017b80-840e-11eb-9c5c-70f38e563577.png">
+<img width="707" alt="US election senate map" src="https://user-images.githubusercontent.com/37122520/111034689-ba017b80-840e-11eb-9c5c-70f38e563577.png">
 </p>
 <br>
 
