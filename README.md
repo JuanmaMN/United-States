@@ -1,5 +1,6 @@
 
 
+
 This repository provides different analyses of the United States of America on a wide range of topics such as US elections, economy, among others.
 
 Code has been uploaded as well for you to view.
@@ -64,7 +65,7 @@ Code is available [here](https://github.com/JuanmaMN/US-elections/blob/main/US%2
 
 <br>
 <p align="center">
-<img width="707" alt="US election senate map" src="https://user-images.githubusercontent.com/37122520/111326099-2f19be80-8664-11eb-8392-a600c3b58c9a.png">
+<img width="707" alt="US election senate map" src="https://user-images.githubusercontent.com/37122520/111330758-232ffb80-8668-11eb-81e2-260858e4f170.png">
 </p>
 <br>
 
