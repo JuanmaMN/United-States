@@ -33,7 +33,7 @@ showtext_auto()
 
 
 second_map<-plot_usmap("data source", values = "party_simplified",labels = TRUE) + 
-  scale_fill_manual(values = map_fills,labels = c("Democratic", "Republican", "No election")) +
+  scale_fill_manual(values = map_fills,labels = c("Democrat", "Republican", "No election")) +
   labs(fill = "party_simplified") +
   labs(x = "",y = "",
        title = "US Senate election 2020",
