@@ -68,8 +68,8 @@ second_map<-plot_usmap("data source", values = "party_simplified",labels = TRUE)
     color = "#808080",
     keywidth = 3, keyheight = 0.5)) +
   annotate("text", x = -1000, y = -2700000, hjust = 0, vjust = 1,fontface=3, size = 8, colour = "#1a6aff",
-           family = font_labels, label =  str_wrap("Biden - 50")) +
+           family = font_labels, label =  str_wrap("Democrat - 50")) +
   annotate("text", x = 1240000, y = -2700000, hjust = 0, vjust = 1,fontface=3, size = 8, colour = "#ff4a43",
-           family = font_labels, label =  str_wrap("Trump - 50"))
+           family = font_labels, label =  str_wrap("Republican - 50"))
 
 
