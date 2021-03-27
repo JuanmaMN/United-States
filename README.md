@@ -74,3 +74,44 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <hr>
 
 
+
+# US economy
+
+This is a personal project where I will be publishing my analyses on US elections done on R studio and Tableau.
+
+The source of all datasets is from [U.S. BUREAU OF LABOR STATISTICS](https://www.bls.gov/.
+
+
+
+<br> 
+
+### Unemployment Rates by State
+
+
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R)
+
+<br> 
+
+<br>
+<p style="text-align: center;">  
+  
+<img width="923" alt="1 1 - State unemployment" src="https://user-images.githubusercontent.com/37122520/112726694-b1cd3400-8f16-11eb-96ac-2528854cdfb1.png">
+
+</p>
+<br>
+
+
+### Per capita personal income by State
+
+
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R)
+
+<br> 
+
+<br>
+<p style="text-align: center;">  
+  
+<img width="923" alt="3- Personal income" src="https://user-images.githubusercontent.com/37122520/112726715-cc071200-8f16-11eb-8922-acb09b91db44.png">
+
+</p>
+<br>
