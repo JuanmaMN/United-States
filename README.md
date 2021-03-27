@@ -79,7 +79,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 This is a personal project where I will be publishing my analyses on US elections done on R studio and Tableau.
 
-The source of all datasets is from [U.S. BUREAU OF LABOR STATISTICS](https://www.bls.gov/.
+The source of all datasets is from [U.S. BUREAU OF LABOR STATISTICS](https://www.bls.gov/).
 
 
 
@@ -88,7 +88,7 @@ The source of all datasets is from [U.S. BUREAU OF LABOR STATISTICS](https://www
 ### Unemployment Rates by State
 
 
-Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-economy/Unemployment_rate_by_state.R)
 
 <br> 
 
@@ -104,7 +104,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 ### Per capita personal income by State
 
 
-Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-economy/Per_capita_personal_income_by_state.R)
 
 <br> 
 
