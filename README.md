@@ -24,29 +24,31 @@ The source of all datasets is from [MIT Election Data + Science Lab](https://ele
 ### US Presidential election 2020
 
 
-Code is available [here](https://github.com/JuanmaMN/US-elections/blob/main/US%20presidential%20election%20-%202020.R)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R
+)
 
 <br> 
 
 <br>
 <p style="text-align: center;">  
-<img width="903" alt="US election presidential map" src="https://user-images.githubusercontent.com/37122520/111033998-9852c500-840b-11eb-8bbb-c11f82cf3afc.png">
+<img width="903" alt="US presidential map - Democrat - arrange" src="https://user-images.githubusercontent.com/37122520/112717591-bcbba080-8ee5-11eb-951e-2e301b540249.png">
 </p>
 <br>
 
 
 
-### US Presidential and senate elections 2020
+
+### US Presidential and Senate elections 2020
 
 
 
-Code is available [here](https://github.com/JuanmaMN/US-elections/blob/main/US%20presidential%20and%20senate%20elections%20-%202020.R)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R)
 
 <br> 
 
 <br>
 
-<img width="919" alt="US election and senate map (2)" src="https://user-images.githubusercontent.com/37122520/111035012-229d2800-8410-11eb-9f67-04c467a58b06.png">
+<img width="921" alt="US election and senate map (2)" src="https://user-images.githubusercontent.com/37122520/112717611-d0670700-8ee5-11eb-8a26-273d6a841afe.png">
 
 <br>
 
@@ -55,7 +57,8 @@ Code is available [here](https://github.com/JuanmaMN/US-elections/blob/main/US%2
 
 
 
-### US Senate election 2020
+### US House 2018 and Senate 2020 elections 
+
 
 
 
@@ -65,7 +68,7 @@ Code is available [here](https://github.com/JuanmaMN/US-elections/blob/main/US%2
 
 <br>
 <p align="center">
-<img width="707" alt="US election senate map" src="https://user-images.githubusercontent.com/37122520/111330758-232ffb80-8668-11eb-81e2-260858e4f170.png">
+<img width="921" alt="US election house and senate (3)" src="https://user-images.githubusercontent.com/37122520/112717674-263baf00-8ee6-11eb-8641-8a57d4e484f0.png">
 </p>
 <br>
 
