@@ -118,17 +118,8 @@ second_map<-plot_usmap("data source", values = "party_simplified",labels = TRUE)
 ggarrange(first_map_house,second_map_senate, ncol=2, nrow=1, common.legend = F, legend="none") +
   theme_ipsum() +
   labs(x = "",y = "",
-       # title = "US Presidential election 2020",
-       # subtitle = "XXXXXXXXXXX",
        caption = "Source: https://electionlab.mit.edu/data\nVisualization: JuanmaMN (Twitter @Juanma_MN)") +
   theme(
-    #plot.title = element_text(margin = margin(b = 8), 
-    #                         color = "#000000",face = "bold",size = 14,
-    #                        hjust = 0.5,
-    #                       family = font_labels),
-    #plot.subtitle = element_text(margin = margin(t=10, b = 25), 
-    #                             color = "#000000", size = 10, family = font_labels,
-    #                            hjust = 0.5),
     plot.caption =  element_text(margin = margin(t = 20, b = 10), 
                                  color = "#000000", size = 8, family = font_labels,
                                  hjust = 0.95),

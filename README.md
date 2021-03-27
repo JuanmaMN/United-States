@@ -61,7 +61,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 
 
-Code is available [here](https://github.com/JuanmaMN/US-elections/blob/main/US%20senate%20election%20-%202020.R)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_house_2018_and_senate_2020_elections.R)
 
 <br> 
 
