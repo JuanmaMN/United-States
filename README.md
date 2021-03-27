@@ -24,8 +24,7 @@ The source of all datasets is from [MIT Election Data + Science Lab](https://ele
 ### US Presidential election 2020
 
 
-Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R
-)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R)
 
 <br> 
 
@@ -47,9 +46,9 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <br> 
 
 <br>
-
+<p align="center">
 <img width="921" alt="US election and senate map (2)" src="https://user-images.githubusercontent.com/37122520/112717611-d0670700-8ee5-11eb-8a26-273d6a841afe.png">
-
+</p>
 <br>
 
 
