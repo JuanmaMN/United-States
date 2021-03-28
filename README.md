@@ -1,6 +1,7 @@
 
 
 
+
 This repository provides different analyses of the United States of America on a wide range of topics such as US elections, economy, among others.
 
 Code has been uploaded as well for you to view.
@@ -111,7 +112,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <br>
 <p style="text-align: center;">  
   
-<img width="923" alt="3- Personal income" src="https://user-images.githubusercontent.com/37122520/112726715-cc071200-8f16-11eb-8922-acb09b91db44.png">
+<img width="923" alt="3- Personal income" src="https://user-images.githubusercontent.com/37122520/112761726-93d60100-8ff4-11eb-9e48-58eff3b1088b.png">
 
 </p>
 <br>
