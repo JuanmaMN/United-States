@@ -25,7 +25,7 @@ The source of all datasets is from [MIT Election Data + Science Lab](https://ele
 ### US Presidential election 2020
 
 
-Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R).
 
 <br> 
 
@@ -42,7 +42,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 
 
-Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_presidential_and_senate_elections_2020.R).
 
 <br> 
 
@@ -62,7 +62,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 
 
-Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_house_2018_and_senate_2020_elections.R)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-elections/US_house_2018_and_senate_2020_elections.R).
 
 <br> 
 
@@ -89,7 +89,7 @@ The source of all datasets is from [U.S. BUREAU OF LABOR STATISTICS](https://www
 ### Unemployment Rates by State
 
 
-Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-economy/Unemployment_rate_by_state.R)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-economy/Unemployment_rate_by_state.R).
 
 <br> 
 
@@ -105,7 +105,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 ### Per capita personal income by State
 
 
-Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-economy/Per_capita_personal_income_by_state.R)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-economy/Per_capita_personal_income_by_state.R).
 
 <br> 
 
@@ -121,9 +121,9 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 
 
-Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-economy/Unemployment_rate_by_county.R)
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-economy/Unemployment_rate_by_county.R).
 
-Tableau visualization [link](https://public.tableau.com/profile/juanma4308#!/vizhome/USCountyUnemploymentRate-2019/US_County)
+Tableau visualization [link](https://public.tableau.com/profile/juanma4308#!/vizhome/USCountyUnemploymentRate-2019/US_County).
 
 <br> 
 
@@ -133,4 +133,56 @@ Tableau visualization [link](https://public.tableau.com/profile/juanma4308#!/viz
 <img width="993" alt="4- US County" src="https://user-images.githubusercontent.com/37122520/113402535-0d774180-939d-11eb-82d8-c8b416eb773e.png">
 
 </p>
+<br>
+
+
+# US  Business and Consumer confidence
+
+This is a personal project where I will be publishing my analyses on US elections done on R studio and Tableau.
+
+The source of all datasets is from [OECD](https://data.oecd.org/).
+
+
+<br> 
+
+### Consumer confidence
+
+
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-confidence/Consumer_confidence.R).
+
+<br> 
+
+<br>
+<p style="text-align: center;">  
+  
+<img width="940" alt="Consumer index - github" src="https://user-images.githubusercontent.com/37122520/113413963-c34d8a80-93b3-11eb-9739-978642263d08.png">
+</p>
+
+<br>
+
+### Business confidence
+
+
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-confidence/Business_confidence.R).
+
+<br> 
+
+<br>
+<p style="text-align: center;">  
+  
+<img width="940" alt="Business index - Github" src="https://user-images.githubusercontent.com/37122520/113413997-d6f8f100-93b3-11eb-8b32-6a365d200d16.png"></p>
+
+<br>
+
+### Business and Consumer confidence
+
+
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-confidence/Business_consumer_confidence.R).
+
+<br> 
+
+<br>
+<p style="text-align: center;">  
+  
+<img width="940" alt="Business and Consumer index - github" src="https://user-images.githubusercontent.com/37122520/113414038-ed9f4800-93b3-11eb-924b-0657bbff88ae.png">
 <br>
