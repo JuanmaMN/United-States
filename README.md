@@ -116,3 +116,21 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 </p>
 <br>
+
+### Unemployment Rates by County
+
+
+
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-economy/Unemployment_rate_by_county.R)
+
+Tableau visualization [link](https://public.tableau.com/profile/juanma4308#!/vizhome/USCountyUnemploymentRate-2019/US_County)
+
+<br> 
+
+<br>
+<p style="text-align: center;">  
+  
+<img width="993" alt="4- US County" src="https://user-images.githubusercontent.com/37122520/113402535-0d774180-939d-11eb-82d8-c8b416eb773e.png">
+
+</p>
+<br>
