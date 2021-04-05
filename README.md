@@ -78,7 +78,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 # US economy
 
-This is a personal project where I will be publishing my analyses on US elections done on R studio and Tableau.
+This is a personal project where I will be publishing my analyses on US economy done on R studio and Tableau.
 
 The source of all datasets is from [U.S. BUREAU OF LABOR STATISTICS](https://www.bls.gov/).
 
@@ -138,7 +138,7 @@ Tableau visualization [link](https://public.tableau.com/profile/juanma4308#!/viz
 
 # US  Business and Consumer confidence
 
-This is a personal project where I will be publishing my analyses on US elections done on R studio and Tableau.
+This is a personal project where I will be publishing my analyses on US confidence indexes done on R studio and Tableau.
 
 The source of all datasets is from [OECD](https://data.oecd.org/).
 
