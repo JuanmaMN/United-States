@@ -117,6 +117,26 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 </p>
 <br>
 
+
+### US Gross Domestic Product by State
+
+
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-economy/GDP_by_state.R).
+
+Tableau visualization [link](https://public.tableau.com/profile/juanma4308#!/vizhome/USGDPbystate/USGDPstate).
+
+
+<br> 
+
+<br>
+<p style="text-align: center;">  
+  
+<img width="923" alt="5 - GDP State" src="https://user-images.githubusercontent.com/37122520/114265779-a2f08200-99ea-11eb-9602-afa2cecdba9e.png">
+
+</p>
+<br>
+
+
 ### Unemployment Rates by County
 
 
