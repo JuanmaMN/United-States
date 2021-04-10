@@ -30,7 +30,8 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <br> 
 
 <br>
-<p style="text-align: center;">  
+
+<p align="center">
 <img width="903" alt="US presidential map - Democrat - arrange" src="https://user-images.githubusercontent.com/37122520/112717591-bcbba080-8ee5-11eb-951e-2e301b540249.png">
 </p>
 <br>
@@ -47,6 +48,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <br> 
 
 <br>
+
 <p align="center">
 <img width="921" alt="US election and senate map (2)" src="https://user-images.githubusercontent.com/37122520/112717611-d0670700-8ee5-11eb-8a26-273d6a841afe.png">
 </p>
@@ -67,8 +69,11 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <br> 
 
 <br>
+
 <p align="center">
+  
 <img width="921" alt="US election house and senate (3)" src="https://user-images.githubusercontent.com/37122520/112717674-263baf00-8ee6-11eb-8641-8a57d4e484f0.png">
+
 </p>
 <br>
 
@@ -94,7 +99,8 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <br> 
 
 <br>
-<p style="text-align: center;">  
+
+<p align="center">
   
 <img width="923" alt="1 1 - State unemployment" src="https://user-images.githubusercontent.com/37122520/112726694-b1cd3400-8f16-11eb-96ac-2528854cdfb1.png">
 
@@ -110,7 +116,8 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <br> 
 
 <br>
-<p style="text-align: center;">  
+
+<p align="center">
   
 <img width="923" alt="3- Personal income" src="https://user-images.githubusercontent.com/37122520/112761726-93d60100-8ff4-11eb-9e48-58eff3b1088b.png">
 
@@ -129,7 +136,8 @@ Tableau visualization [link](https://public.tableau.com/profile/juanma4308#!/viz
 <br> 
 
 <br>
-<p style="text-align: center;">  
+
+<p align="center">
   
 <img width="923" alt="5 - GDP State" src="https://user-images.githubusercontent.com/37122520/114265779-a2f08200-99ea-11eb-9602-afa2cecdba9e.png">
 
@@ -137,7 +145,7 @@ Tableau visualization [link](https://public.tableau.com/profile/juanma4308#!/viz
 <br>
 
 
-### Unemployment Rates by County
+### Unemployment Rate by County
 
 
 
@@ -148,8 +156,9 @@ Tableau visualization [link](https://public.tableau.com/profile/juanma4308#!/viz
 <br> 
 
 <br>
-<p style="text-align: center;">  
-  
+
+<p align="center">  
+
 <img width="993" alt="4- US County" src="https://user-images.githubusercontent.com/37122520/113402535-0d774180-939d-11eb-82d8-c8b416eb773e.png">
 
 </p>
@@ -173,9 +182,11 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <br> 
 
 <br>
-<p style="text-align: center;">  
-  
+
+<p align="center">  
+
 <img width="940" alt="Consumer index - github" src="https://user-images.githubusercontent.com/37122520/113413963-c34d8a80-93b3-11eb-9739-978642263d08.png">
+
 </p>
 
 <br>
@@ -188,8 +199,9 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <br> 
 
 <br>
-<p style="text-align: center;">  
-  
+
+<p align="center">  
+
 <img width="940" alt="Business index - Github" src="https://user-images.githubusercontent.com/37122520/113413997-d6f8f100-93b3-11eb-8b32-6a365d200d16.png"></p>
 
 <br>
@@ -202,7 +214,9 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <br> 
 
 <br>
-<p style="text-align: center;">  
-  
+
+<p align="center">  
+
 <img width="940" alt="Business and Consumer index - github" src="https://user-images.githubusercontent.com/37122520/113414038-ed9f4800-93b3-11eb-924b-0657bbff88ae.png">
+
 <br>
