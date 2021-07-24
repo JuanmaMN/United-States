@@ -220,3 +220,24 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <img width="940" alt="Business and Consumer index - github" src="https://user-images.githubusercontent.com/37122520/113414038-ed9f4800-93b3-11eb-924b-0657bbff88ae.png">
 
 <br>
+
+  
+ 
+# US Droughts
+  
+### 
+
+Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2021/July/TidyTuesday_20_7_2021.R).
+  
+Entry for #TidyTuesday on July 20th 2021.
+
+<br> 
+
+<br>
+
+<p align="center"> 
+
+  
+<img width="940" alt="US map - 20-7-2021" src="https://user-images.githubusercontent.com/37122520/126869818-bbb72757-62e6-425f-ade8-6aaddc0fe4b2.jpg">
+
+<br>
