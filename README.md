@@ -217,9 +217,11 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 <p align="center">  
 
-<img width="940" alt="Business and Consumer index - github" src="https://user-images.githubusercontent.com/37122520/113414038-ed9f4800-93b3-11eb-924b-0657bbff88ae.png">
+<img width="940" alt="Business and Consumer index - github" src="https://user-images.githubusercontent.com/37122520/134403717-eec6cd91-8fbb-4257-8001-0d1a0e1aefef.png">
 
-<br>
+<br>!
+
+
 
   
  
