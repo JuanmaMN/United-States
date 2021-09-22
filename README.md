@@ -191,6 +191,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 <br>
 
+
 ### Business confidence
 
 
@@ -203,6 +204,8 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <p align="center">  
 
 <img width="940" alt="Business index - Github" src="https://user-images.githubusercontent.com/37122520/134403550-8bc1eb52-6e1a-4175-8858-18e1e4ececb5.png"></p>
+
+</p>
 
 <br>
 
@@ -219,7 +222,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 <img width="940" alt="Business and Consumer index - github" src="https://user-images.githubusercontent.com/37122520/134403717-eec6cd91-8fbb-4257-8001-0d1a0e1aefef.png">
 
-<br>!
+<br>
 
 
 
@@ -242,4 +245,5 @@ Entry for #TidyTuesday on July 20th 2021.
   
 <img width="940" alt="US map - 20-7-2021" src="https://user-images.githubusercontent.com/37122520/126869818-bbb72757-62e6-425f-ade8-6aaddc0fe4b2.jpg">
 
+</p>
 <br>
