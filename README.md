@@ -202,7 +202,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 <p align="center">  
 
-<img width="940" alt="Business index - Github" src="https://user-images.githubusercontent.com/37122520/113413997-d6f8f100-93b3-11eb-8b32-6a365d200d16.png"></p>
+<img width="940" alt="Business index - Github" src="https://user-images.githubusercontent.com/37122520/134403550-8bc1eb52-6e1a-4175-8858-18e1e4ececb5.png"></p>
 
 <br>
 
