@@ -220,7 +220,9 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 <p align="center">  
 
-<img width="940" alt="Business and Consumer index - github" src="https://user-images.githubusercontent.com/37122520/134403717-eec6cd91-8fbb-4257-8001-0d1a0e1aefef.png">
+<img width="940" alt="Business and Consumer index - github" src="https://user-images.githubusercontent.com/37122520/134404628-34b7ca5a-6a68-4591-b87e-089093b47ce6.png">
+
+</p>
 
 <br>
 
