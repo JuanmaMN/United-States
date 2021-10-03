@@ -185,7 +185,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 <p align="center">  
 
-<img width="940" alt="Consumer index - github" src="https://user-images.githubusercontent.com/37122520/134403448-ebbf4e14-d0f7-4a82-bc3f-5802a48f7883.png">
+<img width="940" alt="Consumer index - github" src="https://user-images.githubusercontent.com/37122520/135756122-dd2111e5-912d-4baf-a6d7-f28a40710c73.png">
 
 </p>
 
