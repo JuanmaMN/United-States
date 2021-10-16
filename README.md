@@ -249,3 +249,24 @@ Entry for #TidyTuesday on July 20th 2021.
 
 </p>
 <br>
+
+
+
+# US - China trade
+  
+### 
+
+Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2021/July/TidyTuesday_20_7_2021.R).
+  
+<br> 
+
+<br>
+
+<p align="center"> 
+
+  
+<img width="900" alt="US trade" src="https://user-images.githubusercontent.com/37122520/137587591-890bd75f-5ee5-442f-9101-1660c7f34e95.png">
+
+</p>
+<br>
+
