@@ -1,0 +1,138 @@
+
+## First graph
+
+
+gg1<-ggplot(data, aes(year, trade))  + geom_line(aes(colour = column),size = 1.5,linetype = "solid") +
+  scale_x_continuous(breaks=c(1990,1995,2000,2005,2010,2015,2019))+
+  scale_y_continuous(labels = dollar_format(prefix="$", suffix = "bn", scale = 1e-3),
+                     limits = c(0, 600000),
+                     breaks = seq(0, 600000, by = 100000)) +
+  scale_color_manual(values=c("#72bcd4", "#CC6666")) +  # set the colour of the lines 
+  #geom_point(size=4, shape=21, fill="#f5f5f2") +
+  geom_point(x= 1997, y = c(62557.70),size=4, shape=21, fill="#ac3939")+
+  geom_point(x= 1997, y = c(12862.20),size=4, shape=21, fill="#3a9fbf")+
+  geom_point(x= 2001, y = c(19182.30),size=4, shape=21, fill="#3a9fbf")+
+  geom_point(x= 2001, y = c(102278.40),size=4, shape=21, fill="#ac3939")+
+  geom_point(x= 2007, y = c(62936.89),size=4, shape=21, fill="#3a9fbf")+
+  geom_point(x= 2007, y = c(321442.87),size=4, shape=21, fill="#ac3939")+
+  geom_point(x= 2019, y = c(106447.3),size=4, shape=21, fill="#3a9fbf")+
+  geom_point(x= 2019, y = c(451561.44),size=4, shape=21, fill="#ac3939")+
+  labs(x = "",y = "",
+       title = "U.S. trade in goods with China - 1985 to 2019",
+       subtitle = "All figures are in billions of U.S. dollars on a nominal basis, not seasonally adjusted unless otherwise specified. Data until December 2019",
+       caption = "Source: US Census Bureau  www.census.gov\nVisualization: JuanmaMN (Twitter @Juanma_MN)")+
+  #guides(fill = NULL) +
+  theme_ipsum(grid="Y") + 
+  theme(legend.position = "none",
+        plot.title = element_text(margin = margin(b = 8), 
+                                  color = "#22222b",face = "bold",size = 16,
+                                  hjust = 0.5,
+                                  family = "Calibri"),
+        plot.subtitle = element_text(margin = margin(t=10,b = 25), 
+                                     color = "#22222b", size = 9, family = "Arial",
+                                     hjust = 0.5),
+        plot.caption =  element_text(margin = margin(t = 20), 
+                                     color = "#22222b", size = 10, family = "Arial",
+                                     hjust = 0.95),
+        axis.title.x = element_text(margin = margin(t = 10),color = "#22222b"),
+        axis.title.y = element_text(margin = margin(r = 15),color = "#22222b"),
+        axis.text.x    = element_text(color = "#22222b"),
+        axis.text.y    = element_text(color = "#22222b"),
+        #panel.background = element_blank(), 
+        #panel.grid.major = element_blank(),
+        #panel.grid.major.y = element_blank(),
+        #panel.grid.minor = element_blank(), 
+        plot.background = element_rect(fill = "#f4efe1"),
+        plot.margin = unit(c(2, 2, 2, 1), "cm"),
+        axis.ticks = element_blank())+
+  annotate("segment", x = 1997, xend = 1997, y = 0, yend = 130000,
+           linetype = "longdash",   color = "#000000") +
+  annotate("segment", x = 2001, xend = 2001, y = 0, yend = 210000,
+           linetype = "longdash", color = "#000000") +
+  annotate("segment", x = 2007, xend = 2007, y = 0, yend = 420000,
+           linetype = "longdash", color = "#000000") +
+  annotate("segment", x = 2019, xend = 2019, y = 300000, yend =452243.44,
+           linetype = "longdash", color = "#000000") +
+  annotate("segment", x = 2019, xend = 2019, y =110000, yend = 235000,
+           linetype = "longdash", color = "#000000") +
+  annotate("text", x = 1997, y =160000,fontface =0,
+           hjust = 0.5, color = "#000000",
+           size = 3.5, label = paste0("1997\n Asian financial crisis")) +
+  annotate("text", x = 2001, y =250000,fontface =0,
+           hjust = 0.5, color = "#000000",
+           size = 3.5, label = paste0("2001 (December)  \nChina joins the \n World Trade Organization "))   +
+  annotate("text", x = 2007, y =450000,
+           hjust = 0.5, color = "#000000", fontface =0,
+           size = 3.5, label = paste0("2007 \n Global financial crisis starts")) +
+  annotate("text", x = 2019, y =270000,fontface =2,
+           hjust = 0.5, color = "#ffc04d",
+           size = 3.5, label = paste0("Trade deficit 2019\n$345.62bn")) +
+  annotate("text", x = 2013, y =410430.02,fontface =2,
+           hjust = 0, color = "#e13d3d",
+           size = 3.5, label = paste0("U.S. imports from China")) +
+  annotate("text", x = 2013, y =151746.19,fontface =2,
+           hjust = 0, color = "#3a9fbf",
+           size = 3.5, label = paste0("U.S. exports to China"))
+
+gg1
+
+## Second graph
+
+
+p2datadeficit <- datadeficit%>% 
+  ggplot(aes(x=year, y=-Deficit)) +
+  scale_x_continuous(breaks=c(1990,1995,2000,2005,2010,2015,2019))+
+  scale_y_continuous(labels = dollar_format(prefix="$", suffix = "bn", scale = 1e-3),
+                     limits = c(0, 450000),
+                     breaks = seq(0, 450000, by = 100000)) +
+  geom_area(fill= "#e86969") +
+  labs(x = "",y = "",
+       title = "U.S. trade deficit in goods with China - 1985 to 2019",
+       subtitle = "All figures are in billions of U.S. dollars on a nominal basis, not seasonally adjusted unless otherwise specified. Data until December 2019",
+       caption = "Source: US Census Bureau  www.census.gov\nVisualization: JuanmaMN (Twitter @Juanma_MN)") +
+  theme_ipsum(grid="Y") + 
+  theme(legend.position = "none",
+        plot.title = element_text(margin = margin(b = 8), 
+                                  color = "#22222b",face = "bold",size = 16,
+                                  hjust = 0.5,
+                                  family = "Calibri"),
+        plot.subtitle = element_text(margin = margin(t=10,b = 25), 
+                                     color = "#22222b", size = 9, family = "Arial",
+                                     hjust = 0.5),
+        plot.caption =  element_text(margin = margin(t = 20), 
+                                     color = "#22222b", size = 10, family = "Arial",
+                                     hjust = 0.95),
+        axis.title.x = element_text(margin = margin(t = 10),color = "#22222b"),
+        axis.title.y = element_text(margin = margin(r = 15),color = "#22222b"),
+        axis.text.x    = element_text(color = "#22222b"),
+        axis.text.y    = element_text(color = "#22222b"),
+        #panel.background = element_blank(), 
+        #panel.grid.major = element_blank(),
+        #panel.grid.major.y = element_blank(),
+        #panel.grid.minor = element_blank(), 
+        plot.background = element_rect(fill = "#f4efe1"),
+        plot.margin = unit(c(2, 2, 2, 1), "cm"),
+        axis.ticks = element_blank()) +
+  annotate("segment", x = 1997, xend = 1997, y = 0, yend = 130000,
+           linetype = "longdash",   color = "#000000") +
+  annotate("segment", x = 2001, xend = 2001, y = 0, yend = 210000,
+           linetype = "longdash", color = "#000000") +
+  annotate("segment", x = 2007, xend = 2007, y = 0, yend = 330000,
+           linetype = "longdash", color = "#000000") +
+  annotate("text", x = 1997, y =160000,fontface =0,
+           hjust = 0.5, color = "#000000",
+           size = 3.5, label = paste0("1997\n Asian financial crisis")) +
+  annotate("text", x = 2001, y =250000,fontface =0,
+           hjust = 0.5, color = "#000000",
+           size = 3.5, label = paste0("2001 (December)  \nChina joins the \n World Trade Organization "))   +
+  annotate("text", x = 2007, y =350000,
+           hjust = 0.5, color = "#000000", fontface =0,
+           size = 3.5, label = paste0("2007 \n Global financial crisis starts")) +
+  annotate("text", x = 2013, y = 131746,fontface =2,
+           hjust = 0.5, color = "#ffc04d",
+           size = 3.5, label = paste0("Trade deficit with China\n in 2019 - $345.62bn")) 
+
+
+
+p2datadeficit
+
