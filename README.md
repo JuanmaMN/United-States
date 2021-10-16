@@ -256,7 +256,7 @@ Entry for #TidyTuesday on July 20th 2021.
   
 ### 
 
-Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2021/July/TidyTuesday_20_7_2021.R).
+Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-China-trade/US-China-trade.Rmd).
   
 <br> 
 
