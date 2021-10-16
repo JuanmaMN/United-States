@@ -265,7 +265,7 @@ Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/202
 <p align="center"> 
 
   
-<img width="900" alt="US trade" src="https://user-images.githubusercontent.com/37122520/137587591-890bd75f-5ee5-442f-9101-1660c7f34e95.png">
+<img width="903" alt="US trade" src="https://user-images.githubusercontent.com/37122520/137587591-890bd75f-5ee5-442f-9101-1660c7f34e95.png">
 
 </p>
 <br>
