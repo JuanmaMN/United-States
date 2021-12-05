@@ -2,7 +2,7 @@
 
 
 
-This repository provides different analyses of the United States of America on a wide range of topics such as US elections, economy, among others.
+This repository provides different analyses of the United States of America :us: on a wide range of topics such as US elections, economy, among others.
 
 Code has been uploaded as well for you to view.
 
