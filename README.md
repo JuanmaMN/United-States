@@ -36,7 +36,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 </p>
 <br>
 
-
+*Maine (Biden 3 - Trump 1). Nebraska (Trump 4 - Biden 1)
 
 
 ### US Presidential and Senate elections 2020
@@ -57,7 +57,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 
 
-
+*Maine (Biden 3 - Trump 1). Nebraska (Trump 4 - Biden 1)
 
 ### US House 2018 and Senate 2020 elections 
 
