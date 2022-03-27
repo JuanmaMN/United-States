@@ -266,10 +266,11 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <p align="center"> 
 
   
-<img width="903" alt="US trade" src="https://user-images.githubusercontent.com/37122520/160280883-4ef407b2-4afd-44de-ae82-8dbfa208c4e9.png">
+<img width="903" alt="US trade" src="https://user-images.githubusercontent.com/37122520/160285827-96a259cd-b847-4487-b6bd-73ec2520ae10.png">
 
 </p>
 <br>
+
 
 
 
