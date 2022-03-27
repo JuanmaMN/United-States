@@ -269,7 +269,17 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 <img width="903" alt="US trade" src="https://user-images.githubusercontent.com/37122520/160285827-96a259cd-b847-4487-b6bd-73ec2520ae10.png">
 
 </p>
+
 <br>
+
+<p align="center"> 
+
+  
+<img width="903" alt="US trade" src="https://user-images.githubusercontent.com/37122520/160286145-e8ac484d-8dd8-482a-ba33-84597a7be270.png">
+
+</p>
+
+
 
 
 
