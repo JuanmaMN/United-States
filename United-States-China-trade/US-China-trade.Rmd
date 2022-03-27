@@ -15,11 +15,11 @@ gg1<-ggplot(data, aes(year, trade))  + geom_line(aes(colour = column),size = 1.5
   geom_point(x= 2001, y = c(102278.40),size=4, shape=21, fill="#ac3939")+
   geom_point(x= 2007, y = c(62936.89),size=4, shape=21, fill="#3a9fbf")+
   geom_point(x= 2007, y = c(321442.87),size=4, shape=21, fill="#ac3939")+
-  geom_point(x= 2019, y = c(106447.3),size=4, shape=21, fill="#3a9fbf")+
-  geom_point(x= 2019, y = c(451561.44),size=4, shape=21, fill="#ac3939")+
+  geom_point(x= 2019, y = c(106448.37),size=4, shape=21, fill="#3a9fbf")+
+  geom_point(x= 2019, y = c(450760.38),size=4, shape=21, fill="#ac3939")+
   labs(x = "",y = "",
        title = "U.S. trade in goods with China - 1985 to 2019",
-       subtitle = "All figures are in billions of U.S. dollars on a nominal basis, not seasonally adjusted unless otherwise specified. Data until December 2019",
+       subtitle = "All figures are in billions of U.S. dollars on a nominal basis, not seasonally adjusted unless otherwise specified.",
        caption = "Source: US Census Bureau  www.census.gov\nVisualization: JuanmaMN (Twitter @Juanma_MN)")+
   #guides(fill = NULL) +
   theme_ipsum(grid="Y") + 
@@ -43,7 +43,7 @@ gg1<-ggplot(data, aes(year, trade))  + geom_line(aes(colour = column),size = 1.5
         #panel.grid.major.y = element_blank(),
         #panel.grid.minor = element_blank(), 
         plot.background = element_rect(fill = "#f4efe1"),
-        plot.margin = unit(c(2, 2, 2, 1), "cm"),
+        plot.margin = unit(c(2, 2, 2, 2), "cm"),
         axis.ticks = element_blank())+
   annotate("segment", x = 1997, xend = 1997, y = 0, yend = 130000,
            linetype = "longdash",   color = "#000000") +
@@ -66,7 +66,7 @@ gg1<-ggplot(data, aes(year, trade))  + geom_line(aes(colour = column),size = 1.5
            size = 3.5, label = paste0("2007 \n Global financial crisis starts")) +
   annotate("text", x = 2019, y =270000,fontface =2,
            hjust = 0.5, color = "#ffc04d",
-           size = 3.5, label = paste0("Trade deficit 2019\n$345.62bn")) +
+           size = 3.5, label = paste0("Trade deficit 2019\n$344.31bn")) +
   annotate("text", x = 2013, y =410430.02,fontface =2,
            hjust = 0, color = "#e13d3d",
            size = 3.5, label = paste0("U.S. imports from China")) +
@@ -88,7 +88,7 @@ p2datadeficit <- datadeficit%>%
   geom_area(fill= "#e86969") +
   labs(x = "",y = "",
        title = "U.S. trade deficit in goods with China - 1985 to 2019",
-       subtitle = "All figures are in billions of U.S. dollars on a nominal basis, not seasonally adjusted unless otherwise specified. Data until December 2019",
+       subtitle = "All figures are in billions of U.S. dollars on a nominal basis, not seasonally adjusted unless otherwise specified.",
        caption = "Source: US Census Bureau  www.census.gov\nVisualization: JuanmaMN (Twitter @Juanma_MN)") +
   theme_ipsum(grid="Y") + 
   theme(legend.position = "none",
@@ -130,7 +130,7 @@ p2datadeficit <- datadeficit%>%
            size = 3.5, label = paste0("2007 \n Global financial crisis starts")) +
   annotate("text", x = 2013, y = 131746,fontface =2,
            hjust = 0.5, color = "#ffc04d",
-           size = 3.5, label = paste0("Trade deficit with China\n in 2019 - $345.62bn")) 
+           size = 3.5, label = paste0("Trade deficit with China\n in 2019 - $344.31bn")) 
 
 
 
