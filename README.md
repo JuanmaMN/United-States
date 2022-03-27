@@ -255,6 +255,7 @@ Entry for #TidyTuesday on July 20th 2021.
 # US - China trade
   
 ### 
+to be updated with latest figure
 
 Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/United-States-China-trade/US-China-trade.Rmd).
   
