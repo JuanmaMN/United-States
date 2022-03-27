@@ -1,13 +1,17 @@
 
 ## First graph
 
-
 gg1<-ggplot(data, aes(year, trade))  + geom_line(aes(colour = column),size = 1.5,linetype = "solid") +
-  scale_x_continuous(breaks=c(1990,1995,2000,2005,2010,2015,2019))+
+ # scale_x_continuous(breaks=c(1990,1995,2000,2005,2010,2015,2019))+
+  scale_x_continuous(expand = c(0, 0), limits = c(1983, 2021),breaks = 1983:2021, 
+                     labels = c(" "," "," ", " ",1987, " ", " ", " ",1991, " "," "," ",1995," "," "," ",
+                                1999," "," "," ",2003," "," "," ",2007," ",
+                                " "," ",2011," "," "," ",2015," "," ",
+                                " ",2019," "," ")) +
   scale_y_continuous(labels = dollar_format(prefix="$", suffix = "bn", scale = 1e-3),
                      limits = c(0, 600000),
                      breaks = seq(0, 600000, by = 100000)) +
-  scale_color_manual(values=c("#72bcd4", "#CC6666")) +  # set the colour of the lines 
+  scale_color_manual(values=c("#72bcd4", "#CC6666")) +  # set the colour of the lines
   #geom_point(size=4, shape=21, fill="#f5f5f2") +
   geom_point(x= 1997, y = c(62557.70),size=4, shape=21, fill="#ac3939")+
   geom_point(x= 1997, y = c(12862.20),size=4, shape=21, fill="#3a9fbf")+
@@ -22,27 +26,27 @@ gg1<-ggplot(data, aes(year, trade))  + geom_line(aes(colour = column),size = 1.5
        subtitle = "All figures are in billions of U.S. dollars on a nominal basis, not seasonally adjusted unless otherwise specified.",
        caption = "Source: US Census Bureau  www.census.gov\nVisualization: JuanmaMN (Twitter @Juanma_MN)")+
   #guides(fill = NULL) +
-  theme_ipsum(grid="Y") + 
+  theme_ipsum(grid="Y") +
   theme(legend.position = "none",
-        plot.title = element_text(margin = margin(b = 8), 
+        plot.title = element_text(margin = margin(b = 8),
                                   color = "#22222b",face = "bold",size = 16,
                                   hjust = 0.5,
-                                  family = "Calibri"),
-        plot.subtitle = element_text(margin = margin(t=10,b = 25), 
-                                     color = "#22222b", size = 9, family = "Arial",
+                                  family = font_labels),
+        plot.subtitle = element_text(margin = margin(t=10,b = 25),
+                                     color = "#22222b", size = 9, family = font_labels,
                                      hjust = 0.5),
-        plot.caption =  element_text(margin = margin(t = 20), 
-                                     color = "#22222b", size = 10, family = "Arial",
+        plot.caption =  element_text(margin = margin(t = 20),
+                                     color = "#22222b", size = 10, family = font_labels,
                                      hjust = 0.95),
-        axis.title.x = element_text(margin = margin(t = 10),color = "#22222b"),
-        axis.title.y = element_text(margin = margin(r = 15),color = "#22222b"),
-        axis.text.x    = element_text(color = "#22222b"),
-        axis.text.y    = element_text(color = "#22222b"),
-        #panel.background = element_blank(), 
-        #panel.grid.major = element_blank(),
-        #panel.grid.major.y = element_blank(),
-        #panel.grid.minor = element_blank(), 
-        plot.background = element_rect(fill = "#f4efe1"),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text.x    = element_text(color = "#22222b",family = font_labels),
+        axis.text.y    = element_blank(),
+        plot.background = element_rect(fill = "#fbfaf6", color = NA),
+        panel.grid.major = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(), 
         plot.margin = unit(c(2, 2, 2, 2), "cm"),
         axis.ticks = element_blank())+
   annotate("segment", x = 1997, xend = 1997, y = 0, yend = 130000,
@@ -55,33 +59,58 @@ gg1<-ggplot(data, aes(year, trade))  + geom_line(aes(colour = column),size = 1.5
            linetype = "longdash", color = "#000000") +
   annotate("segment", x = 2019, xend = 2019, y =110000, yend = 235000,
            linetype = "longdash", color = "#000000") +
-  annotate("text", x = 1997, y =160000,fontface =0,
+  annotate("text", x = 1997, y =160000,fontface =0,family = font_labels,
            hjust = 0.5, color = "#000000",
            size = 3.5, label = paste0("1997\n Asian financial crisis")) +
-  annotate("text", x = 2001, y =250000,fontface =0,
+  annotate("text", x = 2001, y =250000,fontface =0,family = font_labels,
            hjust = 0.5, color = "#000000",
-           size = 3.5, label = paste0("2001 (December)  \nChina joins the \n World Trade Organization "))   +
-  annotate("text", x = 2007, y =450000,
+           size = 3.5, label = paste0("2001 (December)\nChina joins the \n World Trade Organization "))   +
+  annotate("text", x = 2007, y =450000,family = font_labels,
            hjust = 0.5, color = "#000000", fontface =0,
-           size = 3.5, label = paste0("2007 \n Global financial crisis starts")) +
-  annotate("text", x = 2019, y =270000,fontface =2,
+           size = 3.5, label = paste0("2007\n Global financial crisis starts")) +
+  annotate("text", x = 2019, y =270000,fontface =2,family = font_labels,
            hjust = 0.5, color = "#ffc04d",
            size = 3.5, label = paste0("Trade deficit 2019\n$344.31bn")) +
-  annotate("text", x = 2013, y =410430.02,fontface =2,
+  annotate("text", x = 2013, y =151746.19,fontface =2,family = font_labels,
+           hjust = 0, color = "#3a9fbf",
+           size = 3.5, label = paste0("U.S. exports to China")) +
+  annotate("text", x = 2013, y =410430.02,fontface =2, family = font_labels,
            hjust = 0, color = "#e13d3d",
            size = 3.5, label = paste0("U.S. imports from China")) +
-  annotate("text", x = 2013, y =151746.19,fontface =2,
-           hjust = 0, color = "#3a9fbf",
-           size = 3.5, label = paste0("U.S. exports to China"))
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=0,yend=0),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=100000,yend=100000),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=200000,yend=200000),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=300000,yend=300000),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=400000,yend=400000),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=500000,yend=500000),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=600000,yend=600000),linetype="dotted",colour = "#000000")  +
+  annotate("text",x =1984, y = 0, label = "$0bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 100000, label = "$100bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 200000, label = "$200bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 300000, label = "$300bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 400000, label = "$400bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 500000, label = "$500bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 600000, label = "$600bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  
 
 gg1
 
+
 ## Second graph
 
-
-p2datadeficit <- datadeficit%>% 
+p2datadeficit <- datadeficit%>%
   ggplot(aes(x=year, y=-Deficit)) +
-  scale_x_continuous(breaks=c(1990,1995,2000,2005,2010,2015,2019))+
+  scale_x_continuous(expand = c(0, 0), limits = c(1983, 2021),breaks = 1983:2021, 
+                     labels = c(" "," "," ", " ",1987, " ", " ", " ",1991, " "," "," ",1995," "," "," ",
+                                1999," "," "," ",2003," "," "," ",2007," ",
+                                " "," ",2011," "," "," ",2015," "," ",
+                                " ",2019," "," ")) +
   scale_y_continuous(labels = dollar_format(prefix="$", suffix = "bn", scale = 1e-3),
                      limits = c(0, 450000),
                      breaks = seq(0, 450000, by = 100000)) +
@@ -90,28 +119,28 @@ p2datadeficit <- datadeficit%>%
        title = "U.S. trade deficit in goods with China - 1985 to 2019",
        subtitle = "All figures are in billions of U.S. dollars on a nominal basis, not seasonally adjusted unless otherwise specified.",
        caption = "Source: US Census Bureau  www.census.gov\nVisualization: JuanmaMN (Twitter @Juanma_MN)") +
-  theme_ipsum(grid="Y") + 
+  theme_ipsum(grid="Y") +
   theme(legend.position = "none",
-        plot.title = element_text(margin = margin(b = 8), 
+        plot.title = element_text(margin = margin(b = 8),
                                   color = "#22222b",face = "bold",size = 16,
                                   hjust = 0.5,
-                                  family = "Calibri"),
-        plot.subtitle = element_text(margin = margin(t=10,b = 25), 
-                                     color = "#22222b", size = 9, family = "Arial",
+                                  family = font_labels),
+        plot.subtitle = element_text(margin = margin(t=10,b = 25),
+                                     color = "#22222b", size = 9, family = font_labels,
                                      hjust = 0.5),
-        plot.caption =  element_text(margin = margin(t = 20), 
-                                     color = "#22222b", size = 10, family = "Arial",
+        plot.caption =  element_text(margin = margin(t = 20),
+                                     color = "#22222b", size = 10, family = font_labels,
                                      hjust = 0.95),
-        axis.title.x = element_text(margin = margin(t = 10),color = "#22222b"),
-        axis.title.y = element_text(margin = margin(r = 15),color = "#22222b"),
-        axis.text.x    = element_text(color = "#22222b"),
-        axis.text.y    = element_text(color = "#22222b"),
-        #panel.background = element_blank(), 
-        #panel.grid.major = element_blank(),
-        #panel.grid.major.y = element_blank(),
-        #panel.grid.minor = element_blank(), 
-        plot.background = element_rect(fill = "#f4efe1"),
-        plot.margin = unit(c(2, 2, 2, 1), "cm"),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text.x    = element_text(color = "#22222b",family = font_labels),
+        axis.text.y    = element_blank(),
+        plot.background = element_rect(fill = "#fbfaf6", color = NA),
+        panel.grid.major = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(), 
+        plot.margin = unit(c(2, 2, 2, 2), "cm"),
         axis.ticks = element_blank()) +
   annotate("segment", x = 1997, xend = 1997, y = 0, yend = 130000,
            linetype = "longdash",   color = "#000000") +
@@ -120,19 +149,39 @@ p2datadeficit <- datadeficit%>%
   annotate("segment", x = 2007, xend = 2007, y = 0, yend = 330000,
            linetype = "longdash", color = "#000000") +
   annotate("text", x = 1997, y =160000,fontface =0,
-           hjust = 0.5, color = "#000000",
+           hjust = 0.5, color = "#000000",family = font_labels,
            size = 3.5, label = paste0("1997\n Asian financial crisis")) +
   annotate("text", x = 2001, y =250000,fontface =0,
-           hjust = 0.5, color = "#000000",
+           hjust = 0.5, color = "#000000",family = font_labels,
            size = 3.5, label = paste0("2001 (December)  \nChina joins the \n World Trade Organization "))   +
-  annotate("text", x = 2007, y =350000,
+  annotate("text", x = 2007, y =350000,family = font_labels,
            hjust = 0.5, color = "#000000", fontface =0,
            size = 3.5, label = paste0("2007 \n Global financial crisis starts")) +
-  annotate("text", x = 2013, y = 131746,fontface =2,
+  annotate("text", x = 2013, y = 131746,fontface =2,family = font_labels,
            hjust = 0.5, color = "#ffc04d",
-           size = 3.5, label = paste0("Trade deficit with China\n in 2019 - $344.31bn")) 
+           size = 4.5, label = paste0("Trade deficit with China\n in 2019 - $344.31bn"))+
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=0,yend=0),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=100000,yend=100000),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=200000,yend=200000),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=300000,yend=300000),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=400000,yend=400000),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=500000,yend=500000),linetype="dotted",colour = "#000000") +
+  geom_segment(data= data, mapping=aes(x=1985,xend=2019,y=600000,yend=600000),linetype="dotted",colour = "#000000")  +
+  annotate("text",x =1984, y = 0, label = "$0bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 100000, label = "$100bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 200000, label = "$200bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 300000, label = "$300bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 400000, label = "$400bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 500000, label = "$500bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain")  +
+  annotate("text",x =1984, y = 600000, label = "$600bn",colour = "#000000", 
+           vjust = 0.5, size = 3.5, family = font_labels, fontface = "plain") 
 
 
 
 p2datadeficit
-
