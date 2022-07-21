@@ -164,6 +164,17 @@ Tableau visualization [link](https://public.tableau.com/profile/juanma4308#!/viz
 </p>
 <br>
 
+<br> 
+
+<br>
+
+<p align="center">  
+
+![Both slides together](https://user-images.githubusercontent.com/37122520/180305796-c08ff31e-757a-4904-9c24-751a743192e2.png)
+
+</p>
+<br>
+
 
 # US  Business and Consumer confidence
 
