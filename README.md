@@ -124,6 +124,17 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 </p>
 <br>
 
+<br>
+
+
+<p align="center">
+  
+<img width="923" alt="Both slides together - Personal Income" src="https://user-images.githubusercontent.com/37122520/183137581-a8e63f99-8fd4-41e9-ab95-f47f5f6a7756.png">
+
+
+</p>
+
+<br>
 
 ### US Gross Domestic Product by State
 
