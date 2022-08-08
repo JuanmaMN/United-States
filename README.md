@@ -129,7 +129,7 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 <p align="center">
   
-<img width="923" alt="Both slides together - Personal Income" src="https://user-images.githubusercontent.com/37122520/183137581-a8e63f99-8fd4-41e9-ab95-f47f5f6a7756.png">
+<img width="923" alt="Both slides together - Personal Income" src="https://user-images.githubusercontent.com/37122520/183480081-1a27f90d-a871-4af7-8b81-f8bd1b659bfd.png">
 
 
 </p>
