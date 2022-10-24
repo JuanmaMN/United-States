@@ -136,6 +136,19 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 <br>
 
+<br>
+
+Analysis of the income change between 2019 and 2020. [Behance article](https://www.behance.net/gallery/150382129/Per-Capita-Personal-Income-by-US-County-in-2020) with more analyses.
+
+<p align="center">
+  
+<img width="923" alt="US county percentage change of income" src="https://user-images.githubusercontent.com/37122520/197592469-345a04b9-4389-47c7-a968-8e03a5fa91b6.png">
+
+
+</p>
+
+<br>
+
 ### US Gross Domestic Product by State
 
 
