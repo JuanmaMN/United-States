@@ -220,7 +220,10 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 <p align="center">  
 
-<img width="940" alt="Consumer index - github" src="https://user-images.githubusercontent.com/37122520/135756122-dd2111e5-912d-4baf-a6d7-f28a40710c73.png">
+<img width="940" alt="Consumer index - github" src="https://github.com/JuanmaMN/United-States/assets/37122520/167d3e1b-776f-413c-a571-0d19f862e200">
+
+
+
 
 </p>
 
@@ -238,7 +241,8 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 <p align="center">  
 
-<img width="940" alt="Business index - Github" src="https://user-images.githubusercontent.com/37122520/134403550-8bc1eb52-6e1a-4175-8858-18e1e4ececb5.png"></p>
+<img width="940" alt="Business index - Github" src="https://github.com/JuanmaMN/United-States/assets/37122520/fec1e7c4-0646-4a71-931d-17005eb49233"></p>
+
 
 </p>
 
@@ -255,7 +259,9 @@ Code is available [here](https://github.com/JuanmaMN/United-States/blob/main/Uni
 
 <p align="center">  
 
-<img width="940" alt="Business and Consumer index - github" src="https://user-images.githubusercontent.com/37122520/134404628-34b7ca5a-6a68-4591-b87e-089093b47ce6.png">
+<img width="940" alt="Business and Consumer index - github" src="https://github.com/JuanmaMN/United-States/assets/37122520/f2f72a5f-b959-41d6-a2e5-a396eebcd34e">
+
+
 
 </p>
 
